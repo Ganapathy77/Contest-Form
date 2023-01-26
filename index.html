@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest-Form</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="grid-item">
+            <div class="input-container">
+                <div>
+                    <label for="input-text">Text Field</label>
+                    <span style="color: red;">*</span>
+                </div>
+                <input type="text" placeholder="input Text">
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="select">Select Field</label>
+                    <span class="material-icons">error</span>
+                </div>
+                <!-- <input type="number" placeholder="select"> -->
+                <select name="" id="">
+                    <option>Acciojobs</option>
+                    <option>Google</option>
+                    <option>YouTube</option>
+                </select>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="text-area">Text Area</label>
+                    <span class="material-icons">error</span>
+                </div>
+                <textarea rows="5" type="text" placeholder="Text Area"></textarea>
+            </div>
+            <div class="input-container">
+                <div>
+                    <label for="text-field-add-ons">Text Field Add-ons</label>
+                    <span style="color: red;">*</span>
+                </div>
+                <div class="input-group">
+                    <label for="">Label</label>
+                    <input type="text" placeholder="Input Text">
+                    <button class="right-button button" type="button">Button</button>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="search-main-container">
+                <div class="input-container search-container">
+                    <div class="material-icons search-icon">search</div>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="input-container">
+                <div class="input-group cart-button">
+                    <button class="left-button minus" type="button">-</button>
+                    <input class="cart-input" type="text" placeholder="1">
+                    <button class="right-button plus" type="button">+</button>
+                </div>
+            </div>
+            <div style="margin: 20px;">
+                <input type="checkbox" id="checkbox" style="width: 16px;height: 16px;">
+                <label for="checkbox">checkbox</label>
+            </div>
+            <div style="margin: 20px;">
+                <input type="radio" id="radio" style="width: 16px;height: 16px;">
+                <label for="radio">Radio Button</label>
+            </div>
+            <div class="switch">
+                <input type="checkbox">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
